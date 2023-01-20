@@ -7,18 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D277F601294FBD0C00401F0B /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D277F600294FBD0C00401F0B /* SplashScreenView.swift */; };
+		D277F6242951B2C800401F0B /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D277F6232951B2C800401F0B /* LocationView.swift */; };
+		D277F6282951B59300401F0B /* Pagelocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D277F6272951B59300401F0B /* Pagelocation.swift */; };
+		D2896AC22949AE1200FD5815 /* Tajawal-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2896ABF2949AE1200FD5815 /* Tajawal-Regular.ttf */; };
+		D2896AC32949AE1200FD5815 /* Tajawal-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2896AC02949AE1200FD5815 /* Tajawal-Medium.ttf */; };
+		D2896AC42949AE1200FD5815 /* Tajawal-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D2896AC12949AE1200FD5815 /* Tajawal-Bold.ttf */; };
+		D2896ACB2949CE1600FD5815 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2896ACA2949CE1600FD5815 /* SideMenuView.swift */; };
 		D2ACDC242949A88D00831E7B /* MuhmalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACDC232949A88D00831E7B /* MuhmalApp.swift */; };
 		D2ACDC262949A88D00831E7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACDC252949A88D00831E7B /* ContentView.swift */; };
 		D2ACDC282949A88E00831E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2ACDC272949A88E00831E7B /* Assets.xcassets */; };
-		D2ACDC2B2949A88E00831E7B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2ACDC2A2949A88E00831E7B /* Preview Assets.xcassets */; };
+		D2ACDC322949A91700831E7B /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACDC312949A91700831E7B /* OnboardingView.swift */; };
+		D2ACDC342949A9DC00831E7B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2ACDC332949A9DC00831E7B /* Home.swift */; };
+		D2B0C0502949D3AD00951690 /* information.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0C04F2949D3AD00951690 /* information.swift */; };
+		D2B0C0522949D41000951690 /* PopupManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B0C0512949D41000951690 /* PopupManager.swift */; };
+		D2FBAF392951BDB100A38640 /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FBAF382951BDB100A38640 /* MapViewRepresentable.swift */; };
+		D2FBAF3B2951BE5900A38640 /* location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FBAF3A2951BE5900A38640 /* location.swift */; };
+		D2FBAF3D2951C0B700A38640 /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FBAF3C2951C0B700A38640 /* testing.swift */; };
+		D2FBAF3F2951C10300A38640 /* fixing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FBAF3E2951C10300A38640 /* fixing.swift */; };
+		D2FBAF412951C15A00A38640 /* customnavview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FBAF402951C15A00A38640 /* customnavview.swift */; };
+		D2FBAF472951C2A000A38640 /* locationmanger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FBAF462951C2A000A38640 /* locationmanger.swift */; };
+		D2FBAF492951C3FC00A38640 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FBAF482951C3FC00A38640 /* ContactInfo.swift */; };
+		D2FC7520295256A40094A4BE /* ContactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FC751F295256A40094A4BE /* ContactView.swift */; };
+		D2FECFF429523B2600B85B6D /* ItemListing.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FECFF329523B2600B85B6D /* ItemListing.swift */; };
+		D2FECFF6295242D400B85B6D /* ItemsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FECFF5295242D400B85B6D /* ItemsListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D277F600294FBD0C00401F0B /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		D277F6232951B2C800401F0B /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		D277F6272951B59300401F0B /* Pagelocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pagelocation.swift; sourceTree = "<group>"; };
+		D2896ABF2949AE1200FD5815 /* Tajawal-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tajawal-Regular.ttf"; path = "../../../../Downloads/Tajawal/Tajawal-Regular.ttf"; sourceTree = "<group>"; };
+		D2896AC02949AE1200FD5815 /* Tajawal-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tajawal-Medium.ttf"; path = "../../../../Downloads/Tajawal/Tajawal-Medium.ttf"; sourceTree = "<group>"; };
+		D2896AC12949AE1200FD5815 /* Tajawal-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Tajawal-Bold.ttf"; path = "../../../../Downloads/Tajawal/Tajawal-Bold.ttf"; sourceTree = "<group>"; };
+		D2896AC52949AE2900FD5815 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D2896ACA2949CE1600FD5815 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		D2ACDC202949A88D00831E7B /* Muhmal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muhmal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2ACDC232949A88D00831E7B /* MuhmalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuhmalApp.swift; sourceTree = "<group>"; };
 		D2ACDC252949A88D00831E7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D2ACDC272949A88E00831E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D2ACDC2A2949A88E00831E7B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D2ACDC312949A91700831E7B /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		D2ACDC332949A9DC00831E7B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D2B0C04F2949D3AD00951690 /* information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = information.swift; sourceTree = "<group>"; };
+		D2B0C0512949D41000951690 /* PopupManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupManager.swift; sourceTree = "<group>"; };
+		D2FBAF382951BDB100A38640 /* MapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
+		D2FBAF3A2951BE5900A38640 /* location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = location.swift; sourceTree = "<group>"; };
+		D2FBAF3C2951C0B700A38640 /* testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
+		D2FBAF3E2951C10300A38640 /* fixing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fixing.swift; sourceTree = "<group>"; };
+		D2FBAF402951C15A00A38640 /* customnavview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customnavview.swift; sourceTree = "<group>"; };
+		D2FBAF462951C2A000A38640 /* locationmanger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationmanger.swift; sourceTree = "<group>"; };
+		D2FBAF482951C3FC00A38640 /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
+		D2FC751F295256A40094A4BE /* ContactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactView.swift; sourceTree = "<group>"; };
+		D2FC75212952DD220094A4BE /* Muhmal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Muhmal.entitlements; sourceTree = "<group>"; };
+		D2FECFF329523B2600B85B6D /* ItemListing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListing.swift; sourceTree = "<group>"; };
+		D2FECFF5295242D400B85B6D /* ItemsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,20 +93,42 @@
 		D2ACDC222949A88D00831E7B /* Muhmal */ = {
 			isa = PBXGroup;
 			children = (
+				D2FC75212952DD220094A4BE /* Muhmal.entitlements */,
+				D2896AC52949AE2900FD5815 /* Info.plist */,
 				D2ACDC232949A88D00831E7B /* MuhmalApp.swift */,
+				D2FECFF229523AE900B85B6D /* Models */,
+				D277F600294FBD0C00401F0B /* SplashScreenView.swift */,
+				D2ACDC312949A91700831E7B /* OnboardingView.swift */,
+				D2ACDC332949A9DC00831E7B /* Home.swift */,
+				D2896ACA2949CE1600FD5815 /* SideMenuView.swift */,
+				D2B0C04F2949D3AD00951690 /* information.swift */,
+				D2FC751F295256A40094A4BE /* ContactView.swift */,
+				D2B0C0512949D41000951690 /* PopupManager.swift */,
+				D277F6232951B2C800401F0B /* LocationView.swift */,
+				D277F6272951B59300401F0B /* Pagelocation.swift */,
+				D2FBAF382951BDB100A38640 /* MapViewRepresentable.swift */,
 				D2ACDC252949A88D00831E7B /* ContentView.swift */,
+				D2FBAF3C2951C0B700A38640 /* testing.swift */,
+				D2FBAF482951C3FC00A38640 /* ContactInfo.swift */,
+				D2FBAF402951C15A00A38640 /* customnavview.swift */,
+				D2FBAF3E2951C10300A38640 /* fixing.swift */,
+				D2FBAF3A2951BE5900A38640 /* location.swift */,
+				D2FBAF462951C2A000A38640 /* locationmanger.swift */,
 				D2ACDC272949A88E00831E7B /* Assets.xcassets */,
-				D2ACDC292949A88E00831E7B /* Preview Content */,
+				D2896AC12949AE1200FD5815 /* Tajawal-Bold.ttf */,
+				D2896AC02949AE1200FD5815 /* Tajawal-Medium.ttf */,
+				D2896ABF2949AE1200FD5815 /* Tajawal-Regular.ttf */,
 			);
 			path = Muhmal;
 			sourceTree = "<group>";
 		};
-		D2ACDC292949A88E00831E7B /* Preview Content */ = {
+		D2FECFF229523AE900B85B6D /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D2ACDC2A2949A88E00831E7B /* Preview Assets.xcassets */,
+				D2FECFF329523B2600B85B6D /* ItemListing.swift */,
+				D2FECFF5295242D400B85B6D /* ItemsListViewModel.swift */,
 			);
-			path = "Preview Content";
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +189,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2ACDC2B2949A88E00831E7B /* Preview Assets.xcassets in Resources */,
+				D2896AC22949AE1200FD5815 /* Tajawal-Regular.ttf in Resources */,
+				D2896AC32949AE1200FD5815 /* Tajawal-Medium.ttf in Resources */,
+				D2896AC42949AE1200FD5815 /* Tajawal-Bold.ttf in Resources */,
 				D2ACDC282949A88E00831E7B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +203,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D277F6282951B59300401F0B /* Pagelocation.swift in Sources */,
+				D2FC7520295256A40094A4BE /* ContactView.swift in Sources */,
+				D2FBAF472951C2A000A38640 /* locationmanger.swift in Sources */,
+				D2896ACB2949CE1600FD5815 /* SideMenuView.swift in Sources */,
+				D2FECFF429523B2600B85B6D /* ItemListing.swift in Sources */,
+				D2FBAF3D2951C0B700A38640 /* testing.swift in Sources */,
+				D2ACDC322949A91700831E7B /* OnboardingView.swift in Sources */,
+				D277F601294FBD0C00401F0B /* SplashScreenView.swift in Sources */,
 				D2ACDC262949A88D00831E7B /* ContentView.swift in Sources */,
+				D2B0C0502949D3AD00951690 /* information.swift in Sources */,
+				D2FECFF6295242D400B85B6D /* ItemsListViewModel.swift in Sources */,
+				D2B0C0522949D41000951690 /* PopupManager.swift in Sources */,
+				D2FBAF3B2951BE5900A38640 /* location.swift in Sources */,
+				D2FBAF412951C15A00A38640 /* customnavview.swift in Sources */,
+				D2ACDC342949A9DC00831E7B /* Home.swift in Sources */,
+				D2FBAF3F2951C10300A38640 /* fixing.swift in Sources */,
+				D277F6242951B2C800401F0B /* LocationView.swift in Sources */,
+				D2FBAF492951C3FC00A38640 /* ContactInfo.swift in Sources */,
 				D2ACDC242949A88D00831E7B /* MuhmalApp.swift in Sources */,
+				D2FBAF392951BDB100A38640 /* MapViewRepresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,12 +348,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Muhmal/Muhmal.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Muhmal/Preview Content\"";
 				DEVELOPMENT_TEAM = VL567NGX26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Muhmal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -279,7 +365,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Aljwhra.Muhmal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -293,12 +379,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Muhmal/Muhmal.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Muhmal/Preview Content\"";
 				DEVELOPMENT_TEAM = VL567NGX26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Muhmal/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -308,7 +396,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Aljwhra.Muhmal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

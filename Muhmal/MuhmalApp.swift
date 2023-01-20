@@ -6,12 +6,29 @@
 //
 
 import SwiftUI
+import CloudKit
+
 
 @main
 struct MuhmalApp: App {
+    
+    let container = CKContainer(identifier: "iCloud.com.Aljwhra.Muhmal")
+    
+    
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           // ContentView()
+           // Home()
+           // OnboardingView()
+           SplashScreenView()
+           // testing()
+          //  information(vm: ItemsListViewModel(container: container))
+            
         }
     }
 }
+
+
+
+
